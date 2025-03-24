@@ -1,4 +1,6 @@
 import { FC } from "react";
+import { Github, Linkedin, Twitter } from "lucide-react";
+
 interface Service {
   title: string;
   desc: string;
@@ -31,7 +33,7 @@ const services: Service[] = [
   },
 ];
 
-const LandingPage:FC = () => {
+const LandingPage: FC = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800 font-sans">
       {/* Hero Section */}
@@ -77,16 +79,45 @@ const LandingPage:FC = () => {
           href="mailto:hello@lawkunchi.com"
           className="inline-block bg-indigo-700 text-white font-semibold py-3 px-6 rounded-2xl shadow-lg hover:bg-indigo-800 transition"
         >
-         hello@lawkunchi.com
+          hello@lawkunchi.com
         </a>
       </section>
 
       {/* Footer */}
-      <footer className="text-center py-6 text-sm text-gray-500">
+      <footer className="text-center py-10 text-sm text-gray-500 bg-white border-t">
+        <div className="flex justify-center gap-6 mb-4">
+          <a
+            href="https://www.linkedin.com/in/lawrence-chibondo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-blue-700 transition"
+            aria-label="LinkedIn"
+          >
+            <Linkedin size={24} />
+          </a>
+          <a
+            href="https://github.com/lawkunchi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-gray-900 transition"
+            aria-label="GitHub"
+          >
+            <Github size={24} />
+          </a>
+          <a
+            href="https://twitter.com/lawkunchi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-blue-500 transition"
+            aria-label="Twitter"
+          >
+            <Twitter size={24} />
+          </a>
+        </div>
         © {new Date().getFullYear()} Lawrence Chibondo. All rights reserved.
       </footer>
     </div>
   );
-}
+};
 
 export default LandingPage;
