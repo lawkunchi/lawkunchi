@@ -74,10 +74,10 @@ const LandingPage:FC = () => {
           Let’s bring your idea to life. Schedule a free consultation now.
         </p>
         <a
-          href="mailto:lawkunchi@yahoo.com"
+          href="mailto:hello@lawkunchi.com"
           className="inline-block bg-indigo-700 text-white font-semibold py-3 px-6 rounded-2xl shadow-lg hover:bg-indigo-800 transition"
         >
-          lawkunchi@yahoo.com
+         hello@lawkunchi.com
         </a>
       </section>
 
