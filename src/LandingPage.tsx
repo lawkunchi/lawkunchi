@@ -46,7 +46,7 @@ const LandingPage: FC = () => {
           React, NestJS, AI, and Fintech integrations.
         </p>
         <a
-          href="#contact"
+          href="https://calendly.com/hello-lawkunchi/30min"
           className="inline-block bg-white text-indigo-700 font-semibold py-3 px-6 rounded-2xl shadow-lg hover:bg-gray-100 transition"
         >
           Book a Free Strategy Call
