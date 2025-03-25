@@ -114,7 +114,7 @@ const LandingPage: FC = () => {
             <Twitter size={24} />
           </a>
         </div>
-        © {new Date().getFullYear()} Lawrence Chibondo. All rights reserved.
+        © {new Date().getFullYear()} lawkunchi. All rights reserved.
       </footer>
     </div>
   );
