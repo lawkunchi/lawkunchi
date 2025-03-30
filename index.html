@@ -57,22 +57,14 @@
       gtag("config", "AW-16950704294");
     </script>
 
-    <!-- Event snippet for Page view conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+
+    <!-- Event snippet for Calendly Link Click conversion page -->
     <script>
-      function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof url != "undefined") {
-            window.location = url;
-          }
-        };
-        gtag("event", "conversion", {
-          send_to: "AW-16950704294/xxUYCJmn9a4aEKbx3JI_",
-          value: 1.0,
-          currency: "ZAR",
-          event_callback: callback,
-        });
-        return false;
-      }
+      gtag("event", "conversion", {
+        send_to: "AW-16950704294/aEgXCNvs7rEaEKbx3JI_",
+        value: 1.0,
+        currency: "ZAR",
+      });
     </script>
   </head>
   <body>
