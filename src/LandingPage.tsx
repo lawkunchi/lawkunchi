@@ -45,12 +45,11 @@ const LandingPage: FC = () => {
           I help startups and businesses launch fast with fullstack expertise:
           React, NestJS, AI, and Fintech integrations.
         </p>
-        <a
-          href="https://calendly.com/hello-lawkunchi/30min"
-          className="inline-block bg-white text-indigo-700 font-semibold py-3 px-6 rounded-2xl shadow-lg hover:bg-gray-100 transition"
-        >
-          Book a Free Strategy Call
-        </a>
+        <div className="fixed top-0 inset-x-0 z-50 bg-indigo-700 text-white text-sm py-2 px-4 text-center">
+  🚀 Book your free MVP strategy session → 
+  <a href="https://calendly.com/hello-lawkunchi/30min" className="underline ml-1">Let’s talk</a>
+</div>
+
       </section>
 
       {/* Services Section */}
